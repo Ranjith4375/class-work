@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.head{
+    max-width: 800px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+   
+}
+.styling{
+    padding: 10px;
+}
+.heading{
+    background-color:#fff ;
+   margin: 20px auto;
+    border-bottom: 2px solid black;
+    width: 100%;
+    
+}
+.heading h1{
+   margin-bottom: 20px;
+   
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.names{
+    display: flex;
+}
+.details{
+  margin: 15px 20px;
+   
+}
+.details input{
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 2px solid gray;
+    border-radius: 4px;
+   
+}
+
+ .details label{
+   
+   display: block;
+   font-size: 17px;
+   margin-left: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.email1 label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+    display: block;
+}
+.email1 input{
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 10px;
+    width: 66%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 12px;
+}
+.quality{
+    display: flex;
+    flex-direction: column;
+}
+.quality h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.feedback{
+    display: flex;
+   
+   margin-left: 10px;
+   margin-bottom: 40px;
+  
+    
+}
+.options{
+width: 100%;
+font-size: 20px;
+}
+.options input{
+    margin-right: 7px;
+
+}
+.question h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.text textarea{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border: 2px solid #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ button:hover{
+    background: linear-gradient( to Left,rgb(105, 100, 100),rgb(72, 71, 71));
+    color: #fff;
+}
